@@ -1,22 +1,15 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img
-      src="https://t.ctcdn.com.br/WFCmWk247vTMApsqreA5hz_B9Bc=/1920x1080/smart/i448581.png"
-      height="200px"
-      srcset=""
-    />
+    <img src="{{ photoCover }}" height="200px" srcset="" />
   </div>
   <div class="big-card__title">
-    <h1><a href="">Nova Versao do Angular</a></h1>
+    <h1>
+      <a href="">{{ cardTitle }}</a>
+    </h1>
   </div>
   <div class="big-card__description">
     <p>
-      <a href="">
-        Angular é uma plataforma de aplicações web de código-fonte aberto e
-        front-end baseado em TypeScript liderado pela Equipe Angular do Google e
-        por uma comunidade de indivíduos e corporações. Angular é uma reescrita
-        completa do AngularJS, feito pela mesma equipe que o construiu.
-      </a>
+      <a href="">{{ cardDescription }}</a>
     </p>
   </div>
 </div>
