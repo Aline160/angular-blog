@@ -9,7 +9,7 @@ import { MenuBarComponent } from "../../components/menu-bar/menu-bar.component";
     standalone: true,
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
-    imports: [MenuTitleComponent, BigCardComponent, SmallCardComponent, MenuBarComponent]
+    imports: [MenuTitleComponent, BigCardComponent, SmallCardComponent, MenuBarComponent,]
 })
 export class HomeComponent {
 
